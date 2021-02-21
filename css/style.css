@@ -127,6 +127,12 @@ ol {
 	margin-bottom: 65px;
 }
  
+.section-title ul {
+    margin-left: 35px;
+}
+.section-title ul ul{
+	list-style-type:none;
+}
 .section-title li:not(:last-child) {
     margin-bottom: 15px;
 }
@@ -214,6 +220,35 @@ ol {
 }
 
 /* buttons */
+
+.papericon {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: .25em;
+  padding: 5px 3px 2px;
+}
+.toptier{ 
+	display: inline-block;
+	background-color: #4CAF50; 
+}
+
+ul ul {
+	margin-left:15px
+}
+.sci{ background-color: #2196F3; }
+span.label-sec { background-color: #F44336; }
+span.label-ai { background-color: #FF9800; }
+span.label-neuro { background-color: #008080; }
+span.label-gpu { background-color: #191970; }
+span.label-fpga { background-color: #B8860B; }
+span.label-modeling { background-color: #708090; }
+span.label-mobile { background-color: #BA55D3; }
 
 .primary-btn {
 	display: inline-block;
