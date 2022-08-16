@@ -237,25 +237,33 @@ ol {
 	display: inline-block;
 	background-color: #4CAF50;/*green*/ 
 }
-/*
 
 ul ul {
 	margin-left:15px
 }
-.sci{ background-color: #2196F3; } /*blue*/
+.sci{ background-color: #2196F3; }
 
-/* http://latexcolor.com/ */
-/* aiml arch sysSW bio*/
-.aiml { background-color: #FF9800; } /*orange*/
-.arch{ background-color: #BA55D3; } /*purple*/
-.bio{ background-color: #8DB600; } /*apple green*/
-.syssw{ background-color: #91A3B0; } /*cadet gray*/
 
-span.label-sec { background-color: #F44336; } /*red*/
-span.label-neuro { background-color: #008080; } /*light bluegreen*/
-span.label-gpu { background-color: #191970; } /*darkblue*/
-span.label-fpga { background-color: #B8860B; } /*dark yellow*/
-span.label-modeling { background-color: #708090; } /*gray blue*/
+.aiml {
+	display: inline-block;
+background-color: #FF9800; } /*orange*/
+.arch{ 
+	display: inline-block;
+background-color: #BA55D3; } /*purple*/
+.bio{ 
+	display: inline-block;
+background-color: #8DB600; } /*apple green*/
+.syssw{ 
+	display: inline-block;
+background-color: #91A3B0; } /*cadet gray*/
+
+span.label-sec { background-color: #F44336; }
+span.label-ai { background-color: #FF9800; }
+span.label-neuro { background-color: #008080; }
+span.label-gpu { background-color: #191970; }
+span.label-fpga { background-color: #B8860B; }
+span.label-modeling { background-color: #708090; }
+span.label-mobile { background-color: #BA55D3; }
 
 .primary-btn {
 	display: inline-block;
