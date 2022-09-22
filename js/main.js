@@ -19,6 +19,34 @@
         $("#preloder").delay(200).fadeOut("slow");
     });
 
+    /*-----
+        newly added 070322
+    -------*/
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        $(".zoom img").css({
+          transform: 'translate3d(-50%, -'+(scroll/100)+'%, 0) scale('+(100 + scroll/5)/100+')',
+          //Blur suggestion from @janwagner: https://codepen.io/janwagner/ in comments
+          //"-webkit-filter": "blur(" + (scroll/200) + "px)",
+          //filter: "blur(" + (scroll/200) + "px)"
+        });
+      });
+
+    // JY: removed... i added vanilla js code for this :) 081222
+
+    // $(".read-more-btn").click(function(){
+    //     $(this).toggleClass("show-more");
+    //    $(".wrapper ul").toggleClass("show-more");
+   
+    //    if($(".read-more-btn").hasClass("show-more")){
+    //      $(".more-btn-text").text("Read Less");
+    //    }
+    //    else{
+    //      $(".more-btn-text").text("Read More");
+    //    }
+    //  });
+
+
     /*------------------
         Background Set
     --------------------*/
