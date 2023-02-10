@@ -1651,6 +1651,8 @@ span.label-mobile { background-color: #BA55D3; }
 	background-attachment: fixed;
 }
 
+
+
 /* .hero {
 	background-image: "images/whatwedo_16_9_new.png";
 	background-repeat: no-repeat;
@@ -2001,6 +2003,11 @@ span.label-mobile { background-color: #BA55D3; }
 	line-height: 28px;
 	letter-spacing: 0.2px;
 	margin-bottom: 55px;
+}
+
+.flexline {
+	color: #787878;
+	display:flex;
 }
 
 .howit-img {

@@ -53,6 +53,12 @@
     $('.set-bg').each(function () {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
+	$(this).css('background-position', '50% 20%');
+	if(window.matchMedia("(max-width: 767px)").matches){
+		$(this).css('background-size', '100%');
+		// $(this).css('background-position', '50% 20%');
+		$(this).css('max-height', '300px');
+	}
     });
 
     /*------------------
